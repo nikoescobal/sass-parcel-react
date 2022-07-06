@@ -2899,13 +2899,15 @@ var prevRefreshSig = window.$RefreshSig$;
 $parcel$ReactRefreshHelpers$b45c.prelude(module);
 
 try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 // import ReactDOM from "react-dom";
 var _client = require("react-dom/client");
-var _appJs = require("./App.js");
+var _app = require("./App");
+var _appDefault = parcelHelpers.interopDefault(_app);
 const app = document.getElementById("root");
 const root = _client.createRoot(app);
-root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appJs.App), {}, void 0, false, {
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appDefault.default), {}, void 0, false, {
     fileName: "src/js/Main.js",
     lineNumber: 8,
     columnNumber: 13
@@ -2916,7 +2918,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appJs.App), {}, void 0
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./App.js":"7bftq"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./App":"7bftq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/react-jsx-dev-runtime.development.js");
 
