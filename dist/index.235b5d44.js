@@ -2901,7 +2901,7 @@ $parcel$ReactRefreshHelpers$b45c.prelude(module);
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-// import ReactDOM from "react-dom";
+/* eslint-disable no-unused-vars */ /* eslint-disable import/extensions */ // import ReactDOM from "react-dom";
 var _client = require("react-dom/client");
 var _app = require("./App");
 var _appDefault = parcelHelpers.interopDefault(_app);
@@ -2909,7 +2909,7 @@ const app = document.getElementById("root");
 const root = _client.createRoot(app);
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appDefault.default), {}, void 0, false, {
     fileName: "src/js/Main.js",
-    lineNumber: 8,
+    lineNumber: 10,
     columnNumber: 13
 }, undefined));
 
@@ -27203,7 +27203,7 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 function App() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-        children: "Hello world!"
+        children: "Konbanwa!"
     }, void 0, false, {
         fileName: "src/js/App.js",
         lineNumber: 2,
