@@ -6,9 +6,8 @@
   "scripts": {
     "dev": "parcel src/index.html --open",
     "build": "parcel build src/index.html",
-    "test": "npm run webhint && npm run stylelint && npm run eslint && echo \"✅✅✅ All tests passed ✅✅✅\"",
+    "test": "npm run webhint && npm eslint && echo \"✅✅✅ All tests passed ✅✅✅\"",
     "webhint": "hint .",
-    "stylelint": "stylelint **/*.css",
     "eslint": "eslint --fix"
   },
   "keywords": [],
@@ -16,12 +15,17 @@
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0",
     "hint": "^7.0.1",
     "parcel": "^2.6.2",
     "process": "^0.11.10",
     "sass": "^1.53.0"
   },
   "dependencies": {
+    "json-schema": "^0.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
