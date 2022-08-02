@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html --open",
-    "build": "parcel build src/index.html",
-    "test": "npm run eslint && echo \"✅✅✅ All tests passed ✅✅✅\"",
-    "eslint": "eslint --fix"
+    "build": "parcel build src/index.html"
   },
   "keywords": [],
   "author": "",
@@ -15,10 +13,6 @@
   "devDependencies": {
     "@babel/eslint-parser": "^7.18.2",
     "@parcel/transformer-sass": "^2.6.2",
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-import-resolver-parcel2": "^1.0.1",
-    "eslint-plugin-import": "^2.26.0",
     "hint": "^7.0.1",
     "parcel": "^2.6.2",
     "process": "^0.11.10",
