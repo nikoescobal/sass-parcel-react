@@ -1,9 +1,4 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable import/extensions */
-/* eslint-disable import/no-unresolved */
-import ReactDOM from "react-dom";
 import * as ReactDOM from 'react-dom/client';
-import {createRoot} from 'react-dom/client';
 import App from './App';
 
 const app = document.getElementById('root');
