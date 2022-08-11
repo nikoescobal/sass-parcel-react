@@ -1,4 +1,4 @@
-# Sass-parcel template
+# sass-parcel-react template
 > Template to help make it easy to start a project with Sass and parcel enabled with quick auto-refresh.
 
 ## Built with
