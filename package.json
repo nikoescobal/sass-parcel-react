@@ -12,7 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "2.8.3",
-    "hint": "7.1.4",
+    "hint": "7.1.5",
     "parcel": "2.8.3",
     "process": "0.11.10",
     "react": "18.2.0",
